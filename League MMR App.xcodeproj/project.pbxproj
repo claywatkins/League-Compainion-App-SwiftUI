@@ -13,6 +13,7 @@
 		0B8BAA28277542A20070388E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8BAA27277542A20070388E /* Preview Assets.xcassets */; };
 		0B8BAA302775459C0070388E /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BAA2F2775459C0070388E /* SettingsButton.swift */; };
 		0B8BAA32277549440070388E /* APIInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BAA31277549440070388E /* APIInteraction.swift */; };
+		0BCCD81B27757DAA001138AF /* FetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCD81A27757DAA001138AF /* FetchService.swift */; };
 		0BE1A1692775748600AB307D /* mmrTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1A1682775748600AB307D /* mmrTypes.swift */; };
 		0BE1A16B277575A700AB307D /* SummonerMMRViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1A16A277575A700AB307D /* SummonerMMRViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		0B8BAA29277542A20070388E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B8BAA2F2775459C0070388E /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
 		0B8BAA31277549440070388E /* APIInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIInteraction.swift; sourceTree = "<group>"; };
+		0BCCD81A27757DAA001138AF /* FetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchService.swift; sourceTree = "<group>"; };
 		0BE1A1682775748600AB307D /* mmrTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmrTypes.swift; sourceTree = "<group>"; };
 		0BE1A16A277575A700AB307D /* SummonerMMRViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummonerMMRViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 		0BD87592277578990036532A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				0BCCD81A27757DAA001138AF /* FetchService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				0B8BAA302775459C0070388E /* SettingsButton.swift in Sources */,
 				0BE1A1692775748600AB307D /* mmrTypes.swift in Sources */,
 				0B8BAA21277542A00070388E /* League_MMR_AppApp.swift in Sources */,
+				0BCCD81B27757DAA001138AF /* FetchService.swift in Sources */,
 				0BE1A16B277575A700AB307D /* SummonerMMRViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
