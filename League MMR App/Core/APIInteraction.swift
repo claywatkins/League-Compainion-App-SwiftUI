@@ -13,10 +13,12 @@ enum NetworkError: Error {
     case tryAgain
 }
 
-class APIInteraction {
+public final class APIInteraction {
+    static let shared = APIInteraction()
+    
     let baseURL = URL(string: "https://na.whatismymmr.com")!
 
-    func getMMR(summonerName: String, completion: @escaping (Result<MMR, NetworkError>) -> Void) {
+    func getMMR(for summonerName: String, completion: @escaping (Result<MMR, NetworkError>) -> Void) {
         
         var urlComponents = URLComponents(url: baseURL, resolvingAgainstBaseURL: true)!
         urlComponents.path = "/api/v1/summoner"
