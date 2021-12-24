@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @State var summonerName = ""
+    @ObservedObject var vm: SummonerMMRViewModel = SummonerMMRViewModel()
+    
     
     var body: some View {
         NavigationView {
