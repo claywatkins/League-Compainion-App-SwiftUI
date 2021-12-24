@@ -1,5 +1,5 @@
 //
-//  FetchService.swift
+//  API.swift
 //  League MMR App
 //
 //  Created by Clayton Watkins on 12/23/21.
@@ -13,7 +13,7 @@ enum NetworkError: Error {
     case tryAgain
 }
 
-class FetchService {
+class APIInteraction {
     let baseURL = URL(string: "https://na.whatismymmr.com")!
 
     func getMMR(summonerName: String, completion: @escaping (Result<MMR, NetworkError>) -> Void) {

@@ -12,7 +12,7 @@
 		0B8BAA25277542A20070388E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8BAA24277542A20070388E /* Assets.xcassets */; };
 		0B8BAA28277542A20070388E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8BAA27277542A20070388E /* Preview Assets.xcassets */; };
 		0B8BAA302775459C0070388E /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BAA2F2775459C0070388E /* SettingsButton.swift */; };
-		0B8BAA32277549440070388E /* FetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BAA31277549440070388E /* FetchService.swift */; };
+		0B8BAA32277549440070388E /* APIInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BAA31277549440070388E /* APIInteraction.swift */; };
 		0BE1A1692775748600AB307D /* mmrTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1A1682775748600AB307D /* mmrTypes.swift */; };
 		0BE1A16B277575A700AB307D /* SummonerMMRViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1A16A277575A700AB307D /* SummonerMMRViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 		0B8BAA27277542A20070388E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B8BAA29277542A20070388E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B8BAA2F2775459C0070388E /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
-		0B8BAA31277549440070388E /* FetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchService.swift; sourceTree = "<group>"; };
+		0B8BAA31277549440070388E /* APIInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIInteraction.swift; sourceTree = "<group>"; };
 		0BE1A1682775748600AB307D /* mmrTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmrTypes.swift; sourceTree = "<group>"; };
 		0BE1A16A277575A700AB307D /* SummonerMMRViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummonerMMRViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +65,7 @@
 				0BD87593277578A90036532A /* Model */,
 				0BD87592277578990036532A /* Services */,
 				0BD87595277578CF0036532A /* Resources */,
+				0BCCD81927757CA9001138AF /* Core */,
 				0B8BAA26277542A20070388E /* Preview Content */,
 			);
 			path = "League MMR App";
@@ -76,6 +77,14 @@
 				0B8BAA27277542A20070388E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BCCD81927757CA9001138AF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0B8BAA31277549440070388E /* APIInteraction.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		0BD8758F277578670036532A /* MainView */ = {
@@ -107,7 +116,6 @@
 		0BD87592277578990036532A /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				0B8BAA31277549440070388E /* FetchService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -206,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8BAA32277549440070388E /* FetchService.swift in Sources */,
+				0B8BAA32277549440070388E /* APIInteraction.swift in Sources */,
 				0B8BAA23277542A00070388E /* ContentView.swift in Sources */,
 				0B8BAA302775459C0070388E /* SettingsButton.swift in Sources */,
 				0BE1A1692775748600AB307D /* mmrTypes.swift in Sources */,
