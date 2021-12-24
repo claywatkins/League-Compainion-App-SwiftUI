@@ -23,9 +23,8 @@ struct ContentView: View {
                 Button("Submit") {
                     print("Getting Summoner MMR")
                 }
-                
-                Spacer()
             }
+            Spacer()
             .navigationBarTitle("What's my MMR?")
             .navigationBarItems(trailing: SettingsButton())
         }

@@ -60,14 +60,11 @@
 		0B8BAA1F277542A00070388E /* League MMR App */ = {
 			isa = PBXGroup;
 			children = (
-				0B8BAA20277542A00070388E /* League_MMR_AppApp.swift */,
-				0B8BAA22277542A00070388E /* ContentView.swift */,
-				0BE1A16A277575A700AB307D /* SummonerMMRViewModel.swift */,
-				0B8BAA31277549440070388E /* FetchService.swift */,
-				0BE1A1682775748600AB307D /* mmrTypes.swift */,
-				0B8BAA2F2775459C0070388E /* SettingsButton.swift */,
-				0B8BAA24277542A20070388E /* Assets.xcassets */,
-				0B8BAA29277542A20070388E /* Info.plist */,
+				0BD87594277578BB0036532A /* SwiftUI LifeCycle */,
+				0BD87591277578860036532A /* Scenes */,
+				0BD87593277578A90036532A /* Model */,
+				0BD87592277578990036532A /* Services */,
+				0BD87595277578CF0036532A /* Resources */,
 				0B8BAA26277542A20070388E /* Preview Content */,
 			);
 			path = "League MMR App";
@@ -79,6 +76,65 @@
 				0B8BAA27277542A20070388E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BD8758F277578670036532A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				0B8BAA22277542A00070388E /* ContentView.swift */,
+				0B8BAA2F2775459C0070388E /* SettingsButton.swift */,
+				0BD87590277578770036532A /* ViewModel */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		0BD87590277578770036532A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0BE1A16A277575A700AB307D /* SummonerMMRViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0BD87591277578860036532A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0BD8758F277578670036532A /* MainView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0BD87592277578990036532A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0B8BAA31277549440070388E /* FetchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0BD87593277578A90036532A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BE1A1682775748600AB307D /* mmrTypes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0BD87594277578BB0036532A /* SwiftUI LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				0B8BAA20277542A00070388E /* League_MMR_AppApp.swift */,
+			);
+			path = "SwiftUI LifeCycle";
+			sourceTree = "<group>";
+		};
+		0BD87595277578CF0036532A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B8BAA24277542A20070388E /* Assets.xcassets */,
+				0B8BAA29277542A20070388E /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +343,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"League MMR App/Preview Content\"";
 				DEVELOPMENT_TEAM = XR5S8WV6LB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "League MMR App/Info.plist";
+				INFOPLIST_FILE = "League MMR App/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +365,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"League MMR App/Preview Content\"";
 				DEVELOPMENT_TEAM = XR5S8WV6LB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "League MMR App/Info.plist";
+				INFOPLIST_FILE = "League MMR App/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
