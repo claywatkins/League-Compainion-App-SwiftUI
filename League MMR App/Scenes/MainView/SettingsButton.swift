@@ -12,7 +12,6 @@ struct SettingsButton: View {
         Button {
           print("I'm currently useless!")
         } label: {
-//            Label("Settings", systemImage: gearshape.fill )
             Image(systemName: "gearshape.fill")
                 .resizable()
                 .frame(width: 30, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
